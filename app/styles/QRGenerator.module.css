@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "SF Pro";
+  src: url("/fonts/SFPro/SFPro-Regular.woff2") format("woff2"),
+    url("/fonts/SFPro/SFPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("/fonts/SFPro/SFPro-Bold.woff2") format("woff2"),
+    url("/fonts/SFPro/SFPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Aplicar SF Pro a todo el generador */
+.container {
+  font-family: "SF Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+}
+
+.qrWrapper {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.qr {
+  width: 300px;
+  height: 300px;
+}
+/* 
+input,
+select,
+button,
+label {
+  font-family: inherit;
+} */
