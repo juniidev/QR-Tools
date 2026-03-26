@@ -46,6 +46,8 @@ npm run dev
 ```bash
 http://localhost:3000
 ```
+5. Preview:
+   [QR-Tool](https://qr-tools.netlify.app/)
 
 
 ## 📄 Licencia
